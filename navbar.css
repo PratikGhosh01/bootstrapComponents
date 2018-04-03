@@ -1,0 +1,91 @@
+/* backround color */
+.topnav {
+    background-color:#696969;
+    overflow: hidden;
+}
+
+/* navbar styling */
+.topnav a {
+    float: left;
+    display: flex;
+    color:white;
+    text-align: center;
+    padding: 1vw 1vw;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+
+
+/* navbar items on hover */
+.topnav a:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+/*hidden icon*/
+.topnav .icon {
+    display: none;
+
+}
+/*icon properties on hover*/
+.topnav .icon:hover {
+    cursor: pointer;
+    background-color:red;
+
+}
+/*style for links to other pages*/
+.linked  {
+    background-color: red;
+    color: white;
+    padding: 1vw 1vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 3vw;
+
+  }
+
+
+
+
+/*hide vertical nav above fixed width*/
+@media screen and (min-width: 721px) {
+            .topnav1 p{
+                display: none;
+              }
+
+}
+/*style at screen width below 720px*/
+@media screen and (max-width: 720px) {
+  .topnav a{
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+    background-color:grey;
+  }
+
+  }
+/*hidden vertical nav*/
+.topnav1 {
+    display: none;
+    background-color: #696969;
+    overflow: hidden;
+}
+/*vertical nav item properties*/
+.topnav1 p {
+    color: white;
+    text-align: left;
+    padding: 1vw 1vw;
+    text-decoration: none;
+    font-size: 1em;
+}
+/*vertical nav items on hover*/
+.topnav1 .new:hover {
+        cursor: pointer;
+        background-color:red;
+}

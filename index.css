@@ -1,0 +1,36 @@
+/*accordian properties*/
+.accordion {
+    background-color: #696969;
+    color: white;
+    cursor: pointer;
+    padding: 1vw;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    
+}
+
+/*accordian properties on hover*/
+.accordion:hover {
+    background-color: red;
+}
+
+/*accordian contents*/
+.contents {
+    padding: 0 1vw;
+    background-color:#eee;
+    display: none;
+    overflow: hidden;
+}
+/*style for links to other pages*/
+.linked  {
+    background-color: red;
+    color: white;
+    padding: 1vw 1vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 3vw;
+
+  }
